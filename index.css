@@ -1,0 +1,160 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #6a0dad;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 5px solid #4b0082;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    background-color: #e0e0e0;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #ccc;
+}
+
+h1, h2 {
+    color: #4b0082;
+}
+
+p {
+    color: #333;
+}
+
+video {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 10px;
+    border: 2px solid #ccc;
+}
+
+footer {
+    background-color: #6a0dad;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    border-top: 5px solid #4b0082;
+}body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #6a0dad;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 5px solid #4b0082;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    background-color: #e0e0e0;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #ccc;
+}
+
+h1, h2 {
+    color: #4b0082;
+}
+
+p {
+    color: #333;
+}
+
+video {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 10px;
+    border: 2px solid #ccc;
+}
+
+footer {
+    background-color: #6a0dad;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    border-top: 5px solid #4b0082;
+}
+
+
+.sombreado {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+}
+
+.sombreado::before {
+    content: "❗";
+    margin-right: 10px;
+}
+
+.encabezado {
+    background-color: #6a0dad;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom: 5px solid #4b0082;
+}
+
+.encabezado h1 {
+    color: white; /* Color que resalta sobre el fondo morado */
+    margin: 0;
+}
+
+.pie-de-pagina {
+    background-color: #6a0dad;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-top: 5px solid #4b0082;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    box-sizing: border-box; /* Asegura que el borde se incluya en el tamaño total del elemento */
+}
+
+.pie-de-pagina p {
+    color: white; /* Color que resalta sobre el fondo morado */
+    margin: 0;
+}
+
+
